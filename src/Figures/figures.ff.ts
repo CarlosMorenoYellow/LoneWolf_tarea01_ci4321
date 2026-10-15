@@ -1,6 +1,7 @@
 import { ATTRIB, createFixedFunction, LIGHTING } from '../vendor/ff/ff';
 import type {Color} from '../vendor/ff/ff';
 
+//
 const CANVAS_SIZE = 480;
 const CLEAR_COLOR: readonly [number, number, number, number] = [
   0x1b / 255,
@@ -9,6 +10,7 @@ const CLEAR_COLOR: readonly [number, number, number, number] = [
   1,
 ];
 
+//declaracion de estructura para datos con respecto a la forma.
 type Shape = {
   vao: WebGLVertexArrayObject;
   mode: GLenum;
@@ -22,6 +24,7 @@ function getContext(canvas: HTMLCanvasElement): WebGL2RenderingContext {
   return gl;
 }
 
+// Funcion para crear VAO
 function createVAO(
   gl: WebGL2RenderingContext,
   positions: Float32Array,
@@ -54,6 +57,7 @@ function createVAO(
   return vao;
 }
 
+//Funcion para crear 
 function createFanPositions(segments: number, radius: number): Float32Array {
   const positions: number[] = [0, 0, 0];
 
@@ -69,6 +73,7 @@ function createFanPositions(segments: number, radius: number): Float32Array {
   return new Float32Array(positions);
 }
 
+//Funcion que corre el labpratorio.
 export function run(
   canvas: HTMLCanvasElement,
   shapeButton: HTMLElement,
@@ -132,6 +137,7 @@ export function run(
   const shapeNames = ['Triángulo', 'Cuadrado', 'Hexágono', 'Círculo'];
   const colorNames = ['Rojo', 'Verde', 'Azul'];
 
+  //funcion que dibuja la figura, da dinamismo a los botones y maneja los eventos de los mismos.
   function draw(): void {
     if (btnShape) { 
     btnShape.textContent = `Figura: ${shapeNames[shapeIndex]}`;
