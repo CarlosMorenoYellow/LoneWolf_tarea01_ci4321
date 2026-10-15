@@ -1,5 +1,8 @@
 # Laboratorio 1
-# Carlos Moreno (21-10409)
+
+## Integrantes del equipo:
+
+- Carlos Moreno (21-10409)
 
 ## Requirements
 
