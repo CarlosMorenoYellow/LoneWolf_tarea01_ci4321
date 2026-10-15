@@ -2,7 +2,7 @@
 
 ## Integrantes del equipo:
 
-- Carlos Moreno (21-10409)
+- Carlos Gabriel Moreno Salazar
 
 ## Requerimientos
 
