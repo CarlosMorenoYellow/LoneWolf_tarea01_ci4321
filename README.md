@@ -33,5 +33,5 @@
 
 ## Troubleshooting
 
-- **Blank page or "WebGL2 is not available."** Enable hardware acceleration in the browser, or try another browser.
-- **Port 5173 is in use.** Stop the other process, or run `npx vite --port 3000`.
+- **Pagina en blanco o "WebGL2 is not available."** Activa hardware acceleration en el buscador o intenta usar otro.
+- **"Port 5173 is in use."** Deten/mata el proceso que este usando el puerto 5173 o corre `npx vite --port <Port>` para correr el laboratorio en otro puerto libre.
