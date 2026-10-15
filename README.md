@@ -1,9 +1,5 @@
-# RGB Triangle: FixedFunction vs. vanilla WebGL2
-
-One RGB triangle, written two ways. Both versions render the same image.
-
-- `src/examples/triangle.ff.ts` uses the FixedFunction (FF) module. The shaders stay hidden.
-- `src/examples/triangle.vanilla.ts` uses raw WebGL2. The shaders are visible.
+# Laboratorio 1
+# Carlos Moreno (21-10409)
 
 ## Requirements
 
@@ -33,23 +29,6 @@ One RGB triangle, written two ways. Both versions render the same image.
 - Press `T` to toggle with the keyboard.
 - The right panel shows the source file of the active version.
 - The URL hash (`#ff` or `#vanilla`) stores the selection.
-
-## Other commands
-
-| Command           | Action                                          |
-| ----------------- | ----------------------------------------------- |
-| `npm run build`   | Type-check with `tsc` and build to `dist/`      |
-| `npm run preview` | Serve the built `dist/` folder locally          |
-
-## Project layout
-
-```
-index.html                 page markup
-src/main.ts                toggle, canvas swap, source panel
-src/examples/shared.ts     vertex data and clear color (#1b1e2b)
-src/examples/triangle.*.ts the two implementations
-src/vendor/ff/             FF v1.0 (read only; do not edit)
-```
 
 ## Troubleshooting
 
