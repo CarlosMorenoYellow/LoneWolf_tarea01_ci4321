@@ -4,34 +4,32 @@
 
 - Carlos Moreno (21-10409)
 
-## Requirements
+## Requerimientos
 
-- Node.js 18 or later (tested with Node 24)
+- Node.js 18 or mas tarde
 - npm
-- A browser with WebGL2 support
+- Un navegador con soporte para WebGL2
 
 ## Run
 
-1. Install the dependencies. This is the only step that needs a network connection.
+1. Instalar las dependencias necesarias.
 
    ```
    npm install
    ```
 
-2. Start the development server.
+2. Arranca el servidor de desarrollo
 
    ```
    npm run dev
    ```
 
-3. Open `http://localhost:5173` in your browser.
+3. Accede `http://localhost:5173` en el buscador.
 
-## Use
+## Uso
 
-- Click "FF (main)" or "Vanilla WebGL2 (second)" to switch versions.
-- Press `T` to toggle with the keyboard.
-- The right panel shows the source file of the active version.
-- The URL hash (`#ff` or `#vanilla`) stores the selection.
+- Para cambiar figuras le das al boton de "Figuras" en la parte inferior
+- Para cambiar colores le das al boton de "Color" en la parte inferior
 
 ## Troubleshooting
 
